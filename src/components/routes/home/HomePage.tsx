@@ -57,6 +57,12 @@ export default function HomePage() {
         {settings.title}
       </h1>
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
+      <div className='p-1 text-gray-300'> Arizona players, add your tag here -{'>'}   
+          <a href="https://forms.gle/TTC43W4ACRpKUANP8" target="_blank" rel="noreferrer"
+             className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
+            Tag Submission
+          </a>
+          </div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>Built by blorppppp</div>
