@@ -9,7 +9,10 @@ import { exec } from 'child_process';
 const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
-var playerCodes = ["JOEM#521", "CPU#0", "AKFU#975", "CUBS#69", "AXE#845"];
+var playerCodes = [
+  "JOEM#521", "CPU#0", "AKFU#975", "CUBS#69", "AXE#845", "MIKEY#1",
+  "KREG#147", "ARCH#870", "NOYO#107", "PATS#583", "MEDZ#841", "KYLE#943",
+  "NOOD#338"];
 
 const getPlayerConnectCodes = async (): Promise<string[]> => {
   // const doc = new GoogleSpreadsheet(settings.spreadsheetID);
