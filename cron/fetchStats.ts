@@ -67,7 +67,7 @@ async function main() {
     console.log('Pending git changes... aborting deploy');
     return
   }
-  const { stdout: stdout2, stderr: stderr2 } = await execPromise(`npm run --prefix ${rootDir} deploy`);
+  const { stdout: stdout2, stderr: stderr2 } = await execPromise(`/home/ubuntu/.nvm/versions/node/v18.12.0/bin/npm run --prefix ${rootDir} deploy`);
   console.log(stdout2);
   if(stderr2) {
     console.error(stderr2);
