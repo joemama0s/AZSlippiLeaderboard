@@ -15,7 +15,8 @@ var playerCodes = [
   "NOOD#338", "CHEWY#9", "SOL#480", "FWD#914", "YAKU#664", "NUT#247",
   "BTR#424", "ABSU#168", "ED#631", "AXCL#700", "FIDDLE#0", "SSJK#355",
   "DUBS#910", "ROCK#422", "RAY#419", "DUST#298", "CUM#566", "CRSP#939",
-  "BRO#171", "BOX#0", "SAM#394", "MITO#858", "LUDW#318", "SANT#433"];
+  "BRO#171", "BOX#0", "SAM#394", "MITO#858", "LUDW#318", "SANT#433",
+  "MIDI#881"];
 
 const getPlayerConnectCodes = async (): Promise<string[]> => {
   // const doc = new GoogleSpreadsheet(settings.spreadsheetID);
